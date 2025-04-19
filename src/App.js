@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <h1>Student List of Niveeth Reddy Kasara</h1>
-      <table border="1" cellPadding="10" className="center-table">
+      <table border="1" style={{ margin: 'auto' }}>
         <thead>
           <tr>
             <th>Name</th>
@@ -24,7 +24,7 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {students.map((student) => (
+          {students.map(student => (
             <tr key={student.id}>
               <td>{student.name}</td>
               <td>{student.email}</td>
