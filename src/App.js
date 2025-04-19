@@ -24,7 +24,7 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {students.map(student => (
+          {students.map((student) => (
             <tr key={student.id}>
               <td>{student.name}</td>
               <td>{student.email}</td>
