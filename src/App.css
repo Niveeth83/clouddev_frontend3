@@ -1,0 +1,10 @@
+﻿.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.center-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
